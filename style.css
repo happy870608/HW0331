@@ -1,4 +1,44 @@
-ul {
+body,
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Microsoft JhengHei;
+ font-size: 1vw;
+}
+#header{
+    width: 100%;
+  position: fixed;
+  height: 4em;
+  top: 0;
+}
+#header a{
+    text-decoration:none;
+    color:black;
+}
+#sidebarleft{
+/*margin-top:4em;*/
+float: left;
+width: 25em;
+padding-top: 10vh;
+}
+#sidebarright{
+    /*margin-top:4em;*/
+    
+    float: right;
+    width: 30em;
+    padding-top: 10vh;
+    }
+#contents{
+    margin-right: 32em;
+    margin-left:30em;
+    padding-top: 10vh;
+   
+}
+#header ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -8,15 +48,87 @@ ul {
   font-size:1.5em;
 }
 
-li {
+#header li {
   display: inline;
   background-color:white;
   color:black;
   padding:0.1em 0.4em 0.1em 0.4em;
   text-decoration:none;
 }
-li:hover{
-border-bottom:0.2em solid coral;
+#header li:hover{
+border-bottom:0.2em solid #025927;
 color:black;
-
+}
+#photos{
+    padding-top: 4em;
+    padding-left: 6em;
+}
+.accounting_profile{
+    padding-left: 6em;
+   
+}
+.accounting_name{
+    font-size:2em;  
+}
+.accounting_qualifications{
+    font-size:1.5em;
+    background-color: #d9dee6;
+    height: 2em;
+    width: 10em;
+    border-radius: 0.2em;
+}
+.check{
+    padding-top: 0.2em;
+    padding-left:0.2em;     
+}
+.checked {
+    color: orange;
+  }
+.accounting_rate{
+    font-size: 1.5em;
+}
+.times{
+    padding-left: 2em;
+    font-size: 2em;
+    color: #025927;
+}
+.serving{
+    font-size: 2em; 
+    padding-top: 1em;
+    color:#7ed957;
+}
+#contents a{
+    text-decoration:none;
+    color:#7ed957;
+}
+#contents ol{
+    font-size: 1.5em;
+}
+#nextstep{
+    border: 5px solid;
+    width: 25em;
+    margin-right:4em;
+    margin-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+   
+}
+.nextstep_number{
+    font-size: 1.8em;
+    font-weight:bold;
+}
+.nextstep_option{   
+    font-size: 1.5em;
+    padding-left: 1.4em;
+}
+.learnmore{
+    height: 2em;
+    width: 10em;
+    border-radius: 0.2em;
+    background-color: #7ed957;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing:0.1em;
+    font-weight:bold;
+    color: white;
 }
